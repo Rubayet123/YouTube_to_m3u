@@ -119,6 +119,30 @@ https://www.youtube.com/@USATODAY/live
 CNBC (YT) | News International | https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/CNBC_logo.svg/701px-CNBC_logo.svg.png |
 https://www.youtube.com/@CNBC/live
 
+Booba Cartoon (YT) | Kids | https://yt3.googleusercontent.com/2f1RU8ogcIDHFAe6UkIKCl-nQNOgLoNz0bAzBrFpfhAj2C3CVcFU3MRHrIKaqYmHeqLqdFeyxLg=s160-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/@Booba/live
+
+Disney Channel (YT) | Kids | https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/2019_Disney_Channel_logo.svg/1920px-2019_Disney_Channel_logo.svg.png |
+https://www.youtube.com/@disneychannel/live
+
+NatGeo Kids (YT) | Kids | https://yt3.googleusercontent.com/OsILVN24vcOj1TCJAy15Z_TFY1eYnDVj3EMnQIv5TreYmskDhtVn1Sz1IeBjoexUxjmXgKdO2Q=s160-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/@natgeokids/live
+
+NatGeo Kids (YT) | Infotainment Channels | https://yt3.googleusercontent.com/OsILVN24vcOj1TCJAy15Z_TFY1eYnDVj3EMnQIv5TreYmskDhtVn1Sz1IeBjoexUxjmXgKdO2Q=s160-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/@NatGeoWild/live
+
+NatGeo Wild (YT) | Infotainment Channels | https://yt3.googleusercontent.com/RRL8O751UsFCCL1U6tVCLlWr19skngM4dbAEb6EGE4Rcqqz842sf9bQGBk3IfnPlkcFvNyknyA=s160-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/@NatGeoWild/live
+
+Epidemic Pop (YT) | Radio | https://upload.wikimedia.org/wikipedia/commons/f/f2/Radio-icon.png |
+https://www.youtube.com/EpidemicPop/live
+
+Perfect Sound (YT) | Radio | https://upload.wikimedia.org/wikipedia/commons/f/f2/Radio-icon.png |
+https://www.youtube.com/@PerfectSound/live
+
+LofiGirl (YT) | Radio | https://upload.wikimedia.org/wikipedia/commons/f/f2/Radio-icon.png |
+https://www.youtube.com/@LofiGirl/live
+
 NASA Live (YT) | Live Feed | https://yt3.googleusercontent.com/2kw8s66dhLUegJ3XrqZSkZMfp77CRhCfYm1NurDwDB2L9sT_-CaoUix_iWjoE_t66b07JzoR=s160-c-k-c0x00ffffff-no-rj |
 https://www.youtube.com/@NASA/live
 
@@ -127,12 +151,3 @@ https://www.youtube.com/@4KNaturalWonders170/live
 
 WEBCAM NEPAL (YT) | Live Feed | https://yt3.googleusercontent.com/SlPs-7p4QsKoo2P1ym0NWhfd0LzotpJzD_v-V4VwtWEKQ8Gv7R6qsT9-8Jc7Ip-6VYkdTZU4cVg=s160-c-k-c0x00ffffff-no-rj |
 https://www.youtube.com/@WEBCAMNEPAL/live
-
-Booba Cartoon (YT) | Kids | https://yt3.googleusercontent.com/2f1RU8ogcIDHFAe6UkIKCl-nQNOgLoNz0bAzBrFpfhAj2C3CVcFU3MRHrIKaqYmHeqLqdFeyxLg=s160-c-k-c0x00ffffff-no-rj |
-https://www.youtube.com/@Booba/live
-
-Disney Channel (YT) | Kids | https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/2019_Disney_Channel_logo.svg/1920px-2019_Disney_Channel_logo.svg.png |
-https://www.youtube.com/@disneychannel/live
-
-Epidemic Pop (YT) | Radio | https://upload.wikimedia.org/wikipedia/commons/f/f2/Radio-icon.png |
-https://www.youtube.com/EpidemicPop/live
