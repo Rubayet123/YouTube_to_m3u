@@ -89,8 +89,14 @@ https://www.youtube.com/@abc7NY/live
 NDTV (YT) | News International | https://yt3.googleusercontent.com/ytc/AIdro_lcj8idHNsaTiTITY2vWQD6gaxZ6ITkpQPaLVskaDMyiml9=s160-c-k-c0x00ffffff-no-rj |
 https://www.youtube.com/@NDTV/live
 
-Bloomberg News (YT) | News International | https://yt3.googleusercontent.com/-kcohSPXknvrybix3K6ayjkT3_vn0Hily7cED3KwrlYzXYNzTXrgmg4ea04Yurmzkgk04A6j3Rg=s160-c-k-c0x00ffffff-no-rj |
+Bloomberg (YT) | News International | https://yt3.googleusercontent.com/-kcohSPXknvrybix3K6ayjkT3_vn0Hily7cED3KwrlYzXYNzTXrgmg4ea04Yurmzkgk04A6j3Rg=s160-c-k-c0x00ffffff-no-rj |
 https://www.youtube.com/@markets/live
+
+Bloomberg Originals (YT) | News International | https://yt3.googleusercontent.com/QnXaC_YmVgrih83IPHmS_37TOJquPQm4ESeop_PTyvatdS6pJa4ynQ57K9NtD6xV9n41h7to6Bw=s160-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/bloomberg/live
+
+Bloomberg Quicktake (YT) | News International | https://yt3.googleusercontent.com/67h6bB9Vlw5SpQkWek4Uk8weqxzaPNGH76sAMK4j431Jx8JlUt8mblVlTCwseeb7rDavn3yBJA=s160-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/@BloombergQuicktake/live
 
 ABC News Australia (YT) | News International | https://yt3.googleusercontent.com/ytc/AIdro_lHPbB8ofmOO9z-qIfDyvdIkJwvZQIlzMkLheepDb2PWDQ=s160-c-k-c0x00ffffff-no-rj |
 https://www.youtube.com/@abcnewsaustralia/live
