@@ -50,6 +50,9 @@ https://www.youtube.com/@KOREAarirangTV/live
 CNA (YT) | News International | https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/CNA_new_logo.svg/640px-CNA_new_logo.svg.png |
 https://www.youtube.com/@channelnewsasia/live
 
+CNA Insider (YT) | News International | https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/CNA_new_logo.svg/640px-CNA_new_logo.svg.png |
+https://www.youtube.com/cnainsider/live
+
 LiveNOW from FOX (YT) | News International | https://upload.wikimedia.org/wikipedia/commons/2/2d/LiveNOW_from_FOX.png |
 https://www.youtube.com/@livenowfox/live
 
@@ -113,6 +116,9 @@ https://www.youtube.com/@euronews/live
 USA Today (YT) | News International | https://yt3.googleusercontent.com/ytc/AIdro_mpuS6J3PwGJatG2czLGfmZHyE_kNicqukg0jBnCbENmiJl=s160-c-k-c0x00ffffff-no-rj |
 https://www.youtube.com/@USATODAY/live
 
+CNBC (YT) | News International | https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/CNBC_logo.svg/701px-CNBC_logo.svg.png |
+https://www.youtube.com/@CNBC/live
+
 NASA Live (YT) | Live Feed | https://yt3.googleusercontent.com/2kw8s66dhLUegJ3XrqZSkZMfp77CRhCfYm1NurDwDB2L9sT_-CaoUix_iWjoE_t66b07JzoR=s160-c-k-c0x00ffffff-no-rj |
 https://www.youtube.com/@NASA/live
 
@@ -124,3 +130,4 @@ https://www.youtube.com/@WEBCAMNEPAL/live
 
 Booba Cartoon (YT) | Kids | https://yt3.googleusercontent.com/2f1RU8ogcIDHFAe6UkIKCl-nQNOgLoNz0bAzBrFpfhAj2C3CVcFU3MRHrIKaqYmHeqLqdFeyxLg=s160-c-k-c0x00ffffff-no-rj |
 https://www.youtube.com/@Booba/live
+
