@@ -128,6 +128,9 @@ https://www.youtube.com/@disneychannel/live
 NatGeo Kids (YT) | Kids | https://yt3.googleusercontent.com/OsILVN24vcOj1TCJAy15Z_TFY1eYnDVj3EMnQIv5TreYmskDhtVn1Sz1IeBjoexUxjmXgKdO2Q=s160-c-k-c0x00ffffff-no-rj |
 https://www.youtube.com/@natgeokids/live
 
+Nick Jr (YT) | Kids | https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_%28outline%29.svg/1024px-Nick_Jr._logo_2023_%28outline%29.svg.png |
+https://www.youtube.com/@nickjr/live
+
 NatGeo Kids (YT) | Infotainment Channels | https://yt3.googleusercontent.com/OsILVN24vcOj1TCJAy15Z_TFY1eYnDVj3EMnQIv5TreYmskDhtVn1Sz1IeBjoexUxjmXgKdO2Q=s160-c-k-c0x00ffffff-no-rj |
 https://www.youtube.com/@NatGeoWild/live
 
@@ -151,3 +154,6 @@ https://www.youtube.com/@4KNaturalWonders170/live
 
 WEBCAM NEPAL (YT) | Live Feed | https://yt3.googleusercontent.com/SlPs-7p4QsKoo2P1ym0NWhfd0LzotpJzD_v-V4VwtWEKQ8Gv7R6qsT9-8Jc7Ip-6VYkdTZU4cVg=s160-c-k-c0x00ffffff-no-rj |
 https://www.youtube.com/@WEBCAMNEPAL/live
+
+Our Planet 4K (YT) | Live Feed | https://yt3.googleusercontent.com/X5MJxLNLe3eQtZ0JhDC2CgiYyTvhHQcFu13cCLIeIiLgELQ9h9v08ZwQt9ZUD_jqeZeVG9vfZA=s160-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/@ourplanet4k/live
