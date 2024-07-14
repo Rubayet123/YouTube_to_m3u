@@ -65,10 +65,10 @@ https://www.youtube.com/@SkyNews/live
 FOX Weather (YT) | News International | https://provider-static.plex.tv/epg/cms/production/5822536e-f8a5-44ea-a82f-a73be1b983e8/fox_weather_horizontal.png |
 https://www.youtube.com/@Foxweather/live
 
-Al Jazeera (YT) | News International | https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Aljazeera_eng.svg/512px-Aljazeera_eng.svg.png |
+Al Jazeera (YT) | News International | https://yt3.googleusercontent.com/YKrh5sIYpesEIHbjfgqwFjFx3ZgIjM_zak2z0LO8QENSgrmgKBes1m65POj9jkmzm0qoKwgl=s160-c-k-c0x00ffffff-no-rj |
 https://www.youtube.com/@aljazeeraenglish/live
 
-DW News (YT) | News International | https://commons.wikimedia.org/wiki/File:DW_%28TV%29_Logo_2012.png |
+DW News (YT) | News International | https://yt3.googleusercontent.com/w5ls-zGHOJYlOOYIi6K_9Hjjbh2XGoM2SYFvL8KuOrk8BJ8G_XFW8d2lYjjd4Gq9INwsARLk0Q=s160-c-k-c0x00ffffff-no-rj |
 https://www.youtube.com/@dwnews/live
 
 WION (YT) | News International | https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/WION_news_Logo.svg/800px-WION_news_Logo.svg.png |
@@ -106,12 +106,6 @@ https://www.youtube.com/@BloombergQuicktake/live
 
 ABC News Australia (YT) | News International | https://yt3.googleusercontent.com/ytc/AIdro_lHPbB8ofmOO9z-qIfDyvdIkJwvZQIlzMkLheepDb2PWDQ=s160-c-k-c0x00ffffff-no-rj |
 https://www.youtube.com/@abcnewsaustralia/live
-
-Sky News (YT) | News International | https://1000logos.net/wp-content/uploads/2020/10/Sky-News-Logo.png |
-https://www.youtube.com/@SkyNews/live
-
-Sky News (YT) | News International | https://1000logos.net/wp-content/uploads/2020/10/Sky-News-Logo.png |
-https://www.youtube.com/@SkyNews/live
 
 Euro News (YT) | News International | https://yt3.googleusercontent.com/t3slq37NYJRuP2UoEZDoPKyMClKyQULG8-j2DEfzL1XXcBvFpR6z6HD7rtc0wDn8Mqt0OtpU=s160-c-k-c0x00ffffff-no-rj |
 https://www.youtube.com/@euronews/live
