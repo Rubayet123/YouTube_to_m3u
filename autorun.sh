@@ -5,6 +5,7 @@ echo $(dirname $0)
 python3 -m pip install requests
 python3 -m pip install beautifulsoup4
 python3 -m pip install selenium
+python3 -m pip install webdriver-manager
 
 cd $(dirname $0)/scripts/
 
