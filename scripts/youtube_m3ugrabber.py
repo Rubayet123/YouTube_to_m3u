@@ -1,20 +1,7 @@
-#! /usr/bin/python3
-
-banner = r'''
-#########################################################################
-#      ____            _           _   __  __                           #
-#     |  _ \ _ __ ___ (_) ___  ___| |_|  \/  | ___   ___  ___  ___      #
-#     | |_) | '__/ _ \| |/ _ \/ __| __| |\/| |/ _ \ / _ \/ __|/ _ \     #
-#     |  __/| | | (_) | |  __/ (__| |_| |  | | (_) | (_) \__ \  __/     #
-#     |_|   |_|  \___// |\___|\___|\__|_|  |_|\___/ \___/|___/\___|     #
-#                   |__/                                                #
-#                                  >> https://github.com/benmoose39     #
-#########################################################################
-'''
-
 import requests
 import os
 import sys
+from bs4 import BeautifulSoup
 
 windows = False
 if 'win' in sys.platform:
@@ -22,18 +9,31 @@ if 'win' in sys.platform:
 
 def grab(url):
     response = requests.get(url, timeout=15).text
+    
+    # Use BeautifulSoup to parse the HTML content
+    soup = BeautifulSoup(response, 'html.parser')
+    
+    # Extract all text content (or modify this as needed to extract specific tags)
+    text_content = soup.get_text()
+    
+    # Save the extracted text to a file
+    with open('extracted_content.txt', 'a') as file:
+        file.write(f"\n\nURL: {url}\n")
+        file.write(text_content)
+    
+    # Continue with your existing logic to find .m3u8 links
     if '.m3u8' not in response:
-        #response = requests.get(url).text
+        if windows:
+            print('https://raw.githubusercontent.com/benmoose39/YouTube_to_m3u/main/assets/moose_na.m3u')
+            return
+        
+        os.system(f'curl "{url}" > temp.txt')
+        response = ''.join(open('temp.txt').readlines())
+        
         if '.m3u8' not in response:
-            if windows:
-                print('https://raw.githubusercontent.com/benmoose39/YouTube_to_m3u/main/assets/moose_na.m3u')
-                return
-            #os.system(f'wget {url} -O temp.txt')
-            os.system(f'curl "{url}" > temp.txt')
-            response = ''.join(open('temp.txt').readlines())
-            if '.m3u8' not in response:
-                print('https://raw.githubusercontent.com/benmoose39/YouTube_to_m3u/main/assets/moose_na.m3u')
-                return
+            print('https://raw.githubusercontent.com/benmoose39/YouTube_to_m3u/main/assets/moose_na.m3u')
+            return
+    
     end = response.find('.m3u8') + 5
     tuner = 100
     while True:
@@ -44,11 +44,15 @@ def grab(url):
             break
         else:
             tuner += 5
+    
     print(f"{link[start : end]}")
 
 print('#EXTM3U x-tvg-url="https://github.com/botallen/epg/releases/download/latest/epg.xml"')
-print(banner)
-#s = requests.Session()
+
+# Make sure 'banner' is defined or remove this line
+# print(banner)
+
+# Open the file containing YouTube channel information
 with open('../youtube_channel_info.txt') as f:
     for line in f:
         line = line.strip()
@@ -64,6 +68,7 @@ with open('../youtube_channel_info.txt') as f:
         else:
             grab(line)
             
+# Clean up temporary files if they exist
 if 'temp.txt' in os.listdir():
-    #os.system('rm temp.txt')
+    os.system('rm temp.txt')
     os.system('rm watch*')
