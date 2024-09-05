@@ -1,27 +1,40 @@
-import requests
 import os
 import sys
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service as ChromeService
+from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.options import Options
+from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
 
 windows = False
 if 'win' in sys.platform:
     windows = True
 
+# Configure Selenium WebDriver
+chrome_options = Options()
+chrome_options.add_argument("--headless")  # Run in headless mode (no GUI)
+chrome_options.add_argument("--disable-gpu")
+chrome_options.add_argument("--no-sandbox")
+
+# Automatically download and setup ChromeDriver
+driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=chrome_options)
+
 def grab(url):
-    response = requests.get(url, timeout=15).text
-    
+    driver.get(url)  # Use Selenium to get the page
+    response = driver.page_source  # Get the page source after JavaScript is executed
+
     # Use BeautifulSoup to parse the HTML content
     soup = BeautifulSoup(response, 'html.parser')
-    
+
     # Extract all text content (or modify this as needed to extract specific tags)
     text_content = soup.get_text()
-    
+
     # Save the extracted text to a file
     with open('extracted_content.txt', 'a') as file:
         file.write(f"\n\nURL: {url}\n")
         file.write(text_content)
-    
-    # Continue with your existing logic to find .m3u8 links
+
     if '.m3u8' not in response:
         if windows:
             print('https://raw.githubusercontent.com/benmoose39/YouTube_to_m3u/main/assets/moose_na.m3u')
@@ -33,7 +46,7 @@ def grab(url):
         if '.m3u8' not in response:
             print('https://raw.githubusercontent.com/benmoose39/YouTube_to_m3u/main/assets/moose_na.m3u')
             return
-    
+
     end = response.find('.m3u8') + 5
     tuner = 100
     while True:
@@ -72,3 +85,6 @@ with open('../youtube_channel_info.txt') as f:
 if 'temp.txt' in os.listdir():
     os.system('rm temp.txt')
     os.system('rm watch*')
+
+# Close the Selenium WebDriver
+driver.quit()
