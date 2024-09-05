@@ -4,6 +4,8 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
 
@@ -21,44 +23,53 @@ chrome_options.add_argument("--no-sandbox")
 driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=chrome_options)
 
 def grab(url):
-    driver.get(url)  # Use Selenium to get the page
-    response = driver.page_source  # Get the page source after JavaScript is executed
-
-    # Use BeautifulSoup to parse the HTML content
-    soup = BeautifulSoup(response, 'html.parser')
-
-    # Extract all text content (or modify this as needed to extract specific tags)
-    text_content = soup.get_text()
-
-    # Save the extracted text to a file
-    with open('extracted_content.txt', 'a') as file:
-        file.write(f"\n\nURL: {url}\n")
-        file.write(text_content)
-
-    if '.m3u8' not in response:
-        if windows:
-            print('https://raw.githubusercontent.com/benmoose39/YouTube_to_m3u/main/assets/moose_na.m3u')
-            return
+    try:
+        driver.get(url)  # Use Selenium to get the page
         
-        os.system(f'curl "{url}" > temp.txt')
-        response = ''.join(open('temp.txt').readlines())
+        # Wait for the video player or page content to load, modify the wait condition as needed
+        WebDriverWait(driver, 20).until(
+            EC.presence_of_element_located((By.TAG_NAME, "body"))
+        )
         
+        response = driver.page_source  # Get the page source after JavaScript is executed
+
+        # Use BeautifulSoup to parse the HTML content
+        soup = BeautifulSoup(response, 'html.parser')
+
+        # Extract all text content (or modify this as needed to extract specific tags)
+        text_content = soup.get_text()
+
+        # Save the extracted text to a file
+        with open('extracted_content.txt', 'a') as file:
+            file.write(f"\n\nURL: {url}\n")
+            file.write(text_content)
+
         if '.m3u8' not in response:
-            print('https://raw.githubusercontent.com/benmoose39/YouTube_to_m3u/main/assets/moose_na.m3u')
-            return
+            if windows:
+                print('https://raw.githubusercontent.com/benmoose39/YouTube_to_m3u/main/assets/moose_na.m3u')
+                return
+            
+            os.system(f'curl "{url}" > temp.txt')
+            response = ''.join(open('temp.txt').readlines())
+            
+            if '.m3u8' not in response:
+                print('https://raw.githubusercontent.com/benmoose39/YouTube_to_m3u/main/assets/moose_na.m3u')
+                return
 
-    end = response.find('.m3u8') + 5
-    tuner = 100
-    while True:
-        if 'https://' in response[end-tuner : end]:
-            link = response[end-tuner : end]
-            start = link.find('https://')
-            end = link.find('.m3u8') + 5
-            break
-        else:
-            tuner += 5
-    
-    print(f"{link[start : end]}")
+        end = response.find('.m3u8') + 5
+        tuner = 100
+        while True:
+            if 'https://' in response[end-tuner : end]:
+                link = response[end-tuner : end]
+                start = link.find('https://')
+                end = link.find('.m3u8') + 5
+                break
+            else:
+                tuner += 5
+        
+        print(f"{link[start : end]}")
+    except Exception as e:
+        print(f"Error processing {url}: {e}")
 
 print('#EXTM3U x-tvg-url="https://github.com/botallen/epg/releases/download/latest/epg.xml"')
 
