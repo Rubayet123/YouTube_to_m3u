@@ -1,5 +1,5 @@
 ~~ DO NOT EDIT THE FIRST 2 LINES
 ~~ FORMAT: <channel name> | <group name> | <logo> | <tvg-id>
 
-24 News Malayalam | Malayalam | https://www.twentyfournews.com/wp-content/themes/nextline_v3/images/logo-new.png |
-https://www.youtube.com/c/24OnLive/live
+Jamuna TV | BD | https://jamunagroup.com.bd/company-images/1662487622-mdshamimislam.png |
+https://www.youtube-nocookie.com/embed/live_stream?channel=UCN6sm8iHiPd0cnoUardDAnw&modestbranding=1
